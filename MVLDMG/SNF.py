@@ -66,7 +66,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # 假设您的CSV文件路径如下
 path1 = '../data2/updated_metabolite_fingerprint_similarity.csv'
 path2 = 'E:\python\GATCL2CD-main\GATCL2CD\data2\ms_matrix_GIP.csv'
-path3 = '../data2/metabolites_jaccard_similarity.csv'
+path3 = '../data2/metabolites_similarity.csv'
 
 # 读取数据
 data1 = pd.read_csv(path1, header=None)
